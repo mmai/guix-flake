@@ -2,6 +2,8 @@
 
 Guix 1.3.0 for NixOS 22.05 
 
+This is basically a flake adaptation of [@pukkamustard](https://github.com/pukkamustard)'s [pull request for nixkpkgs](https://github.com/NixOS/nixpkgs/pull/56430)
+
 Below is an example of a nixos configuration using this flake.
 
 A reboot may be necessary for the `guix` command to be available.

@@ -5,14 +5,17 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 0,
-        "narHash": "sha256-JLXiaWkL7d3ZcF192hdHnhecnWGfIC7QIpuxYh40I34=",
-        "type": "git",
-        "url": "file:///home/henri/travaux/nix_flakes/guix-flake"
+        "lastModified": 1660908915,
+        "narHash": "sha256-YoDRy9Gi1GULLCfoNphcJ5W9U+njFovy+BtLVWR9wyA=",
+        "owner": "mmai",
+        "repo": "guix-flake",
+        "rev": "0918f3d8d5d520168d5a235d97c74df5b49f0431",
+        "type": "github"
       },
       "original": {
-        "type": "git",
-        "url": "file:///home/henri/travaux/nix_flakes/guix-flake"
+        "owner": "mmai",
+        "repo": "guix-flake",
+        "type": "github"
       }
     },
     "nixpkgs": {

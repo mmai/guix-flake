@@ -1,7 +1,7 @@
 {
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.05";
-  # inputs.guix.url = "github:mmai/guix-flake";
-  inputs.guix.url = "/home/henri/travaux/nix_flakes/guix-flake";
+  inputs.guix.url = "github:mmai/guix-flake";
+  # inputs.guix.url = "/home/henri/travaux/nix_flakes/guix-flake";
 
   outputs = { self, nixpkgs, guix }: 
    {

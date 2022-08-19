@@ -26,8 +26,8 @@
             url = "https://ftp.gnu.org/gnu/guix/guix-binary-${version}.${stdenv.targetPlatform.system}.tar.xz";
             sha256 = {
               "x86_64-linux" = "sha256-xffvtIlHVF5J0tr0jQ+DLzXSqNGfZdqvYHlCWsMnwFA=";
-              # "i686-linux" = "10qkz12nsw0cm673jqx0q6ls4m2bsig022iqr0rblpfrgzx20f0i";
-              # "aarch64-linux" = "0vzlpvdkiwz4w08xvwlqdhz35mjfmf1v3q8mv7fy09bk0y3cwzqs";
+              "i686-linux" = "sha256-QHOK7hFh8LmRFK+EnNBNqfDNwQ0ia0lqRiHov9uyG2Q=";
+              "aarch64-linux" = "sha256-RE9lNs9ZWWNhI6xxjbm4UHFQLkhVVbLYAb8pNpMIEM4=";
             }."${stdenv.targetPlatform.system}";
           };
           sourceRoot = ".";

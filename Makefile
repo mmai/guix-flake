@@ -1,5 +1,5 @@
 update:
-	nix flake lock --update-input nixpkgs guix
+	nix flake lock --update-input nixpkgs
 local:
 	cd container && nix flake lock --update-input guix && cd -
 	sudo nixos-container destroy guix

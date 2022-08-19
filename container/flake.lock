@@ -5,11 +5,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1660908915,
-        "narHash": "sha256-YoDRy9Gi1GULLCfoNphcJ5W9U+njFovy+BtLVWR9wyA=",
+        "lastModified": 1660930161,
+        "narHash": "sha256-p7dBLuOz3RQ2IRGTJAfqutaU98kLyDe5O8EaQzSpM40=",
         "owner": "mmai",
         "repo": "guix-flake",
-        "rev": "0918f3d8d5d520168d5a235d97c74df5b49f0431",
+        "rev": "41bdbc50f3111e804423320836c4fbf815cc2b12",
         "type": "github"
       },
       "original": {

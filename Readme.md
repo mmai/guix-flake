@@ -1,8 +1,10 @@
-# Guix flake
+# Experimental guix flake
 
 Guix 1.3.0 for NixOS 22.05 
 
 This is basically a flake adaptation of [@pukkamustard](https://github.com/pukkamustard)'s [pull request for nixkpkgs](https://github.com/NixOS/nixpkgs/pull/56430)
+
+Beware, although it seems to works well on my machine (x86_64 architecture), it has not been fully tested. It is probably safer to use [this method](https://github.com/NixOS/nixpkgs/pull/150130#issuecomment-993954344).
 
 Below is an example of a nixos configuration using this flake.
 

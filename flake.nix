@@ -50,12 +50,12 @@
             ln -s /var/guix/profiles/per-user/root/current-guix/bin/guix-daemon $out/bin/guix-daemon
           '';
 
-          meta = with lib; {
+          meta = {
             description = "The GNU Guix package manager";
-            homepage = https://www.gnu.org/software/guix/;
-            license = licenses.gpl3Plus;
-            platforms = platforms.linux;
-            maintainers = with maintainers; [ mmai ];
+            homepage = "https://www.gnu.org/software/guix/";
+            license = lib.licenses.gpl3Plus;
+            maintainers = with lib.maintainers; [ johnazoidberg mohe2015 mmai ];
+            platforms = [ "aarch64-linux" "i686-linux" "x86_64-linux" ];
           };
       });
     };
